@@ -1,0 +1,478 @@
+Using device: cuda:0
+Pre-processing...
+- CSV Files importation
+- Labels cleaning
+- Images datasets creation
+- Labels preprocessing
+- Dataloaders creation
+Pre-processing done successfully.
+Building CRNN Models...
+Models successfully created.
+--> LSTM : 8856606 parameters
+--> GRU : 6689822 parameters
+LSTM Training...
+{'batch': 0, 'epoch': 0, 'training loss': 29.12994384765625}
+{'batch': 500, 'epoch': 0, 'training loss': 0.8088396191596985}
+{'batch': 1000, 'epoch': 0, 'training loss': 0.259565144777298}
+{'batch': 1500, 'epoch': 0, 'training loss': 0.30455708503723145}
+{'batch': 2000, 'epoch': 0, 'training loss': 0.24013999104499817}
+{'epoch': 0, 'training loss': 0.23166802525520325, 'validation loss': 0.22668174004301112, 'Words accuracy': 0.7795877659574468, 'Letters accuracy': 0.9136063314484911}
+{'batch': 0, 'epoch': 1, 'training loss': 0.23352362215518951}
+{'batch': 500, 'epoch': 1, 'training loss': 0.30780088901519775}
+{'batch': 1000, 'epoch': 1, 'training loss': 0.12235818803310394}
+{'batch': 1500, 'epoch': 1, 'training loss': 0.23579999804496765}
+{'batch': 2000, 'epoch': 1, 'training loss': 0.22336919605731964}
+{'epoch': 1, 'training loss': 0.2099783569574356, 'validation loss': 0.19662629329460732, 'Words accuracy': 0.8079454787234043, 'Letters accuracy': 0.9225593319957034}
+{'batch': 0, 'epoch': 2, 'training loss': 0.20157653093338013}
+{'batch': 500, 'epoch': 2, 'training loss': 0.2760910987854004}
+{'batch': 1000, 'epoch': 2, 'training loss': 0.10403965413570404}
+{'batch': 1500, 'epoch': 2, 'training loss': 0.2001853883266449}
+{'batch': 2000, 'epoch': 2, 'training loss': 0.18430182337760925}
+{'epoch': 2, 'training loss': 0.20478561520576477, 'validation loss': 0.18640845183362353, 'Words accuracy': 0.8193816489361702, 'Letters accuracy': 0.9251940576802253}
+{'batch': 0, 'epoch': 3, 'training loss': 0.16768601536750793}
+{'batch': 500, 'epoch': 3, 'training loss': 0.25889045000076294}
+{'batch': 1000, 'epoch': 3, 'training loss': 0.08293697983026505}
+{'batch': 1500, 'epoch': 3, 'training loss': 0.1894538253545761}
+{'batch': 2000, 'epoch': 3, 'training loss': 0.149943009018898}
+{'epoch': 3, 'training loss': 0.17160283029079437, 'validation loss': 0.18125009875982365, 'Words accuracy': 0.8235704787234043, 'Letters accuracy': 0.9268711619140269}
+{'batch': 0, 'epoch': 4, 'training loss': 0.17401620745658875}
+{'batch': 500, 'epoch': 4, 'training loss': 0.2424260973930359}
+{'batch': 1000, 'epoch': 4, 'training loss': 0.07716061919927597}
+{'batch': 1500, 'epoch': 4, 'training loss': 0.17377692461013794}
+{'batch': 2000, 'epoch': 4, 'training loss': 0.18043868243694305}
+{'epoch': 4, 'training loss': 0.1891370564699173, 'validation loss': 0.18106603173816457, 'Words accuracy': 0.8247672872340426, 'Letters accuracy': 0.92544232990819}
+{'batch': 0, 'epoch': 5, 'training loss': 0.17273762822151184}
+{'batch': 500, 'epoch': 5, 'training loss': 0.2065640538930893}
+{'batch': 1000, 'epoch': 5, 'training loss': 0.05230378359556198}
+{'batch': 1500, 'epoch': 5, 'training loss': 0.14488905668258667}
+{'batch': 2000, 'epoch': 5, 'training loss': 0.1554001271724701}
+{'epoch': 5, 'training loss': 0.16516777873039246, 'validation loss': 0.17754085024303579, 'Words accuracy': 0.8295877659574468, 'Letters accuracy': 0.9288725400782311}
+{'batch': 0, 'epoch': 6, 'training loss': 0.15084227919578552}
+{'batch': 500, 'epoch': 6, 'training loss': 0.2244568169116974}
+{'batch': 1000, 'epoch': 6, 'training loss': 0.05326661840081215}
+{'batch': 1500, 'epoch': 6, 'training loss': 0.14302223920822144}
+{'batch': 2000, 'epoch': 6, 'training loss': 0.13476933538913727}
+{'epoch': 6, 'training loss': 0.14931610226631165, 'validation loss': 0.1749429996818938, 'Words accuracy': 0.833809840425532, 'Letters accuracy': 0.9297490930463509}
+{'batch': 0, 'epoch': 7, 'training loss': 0.14165513217449188}
+{'batch': 500, 'epoch': 7, 'training loss': 0.19777245819568634}
+{'batch': 1000, 'epoch': 7, 'training loss': 0.06830942630767822}
+{'batch': 1500, 'epoch': 7, 'training loss': 0.14679443836212158}
+{'batch': 2000, 'epoch': 7, 'training loss': 0.13128571212291718}
+{'epoch': 7, 'training loss': 0.14497756958007812, 'validation loss': 0.17675588138877077, 'Words accuracy': 0.8305851063829788, 'Letters accuracy': 0.9290650777244077}
+{'batch': 0, 'epoch': 8, 'training loss': 0.1446966826915741}
+{'batch': 500, 'epoch': 8, 'training loss': 0.18476437032222748}
+{'batch': 1000, 'epoch': 8, 'training loss': 0.055599480867385864}
+{'batch': 1500, 'epoch': 8, 'training loss': 0.14012905955314636}
+{'batch': 2000, 'epoch': 8, 'training loss': 0.133597269654274}
+{'epoch': 8, 'training loss': 0.14918425679206848, 'validation loss': 0.17870549699093433, 'Words accuracy': 0.8276595744680851, 'Letters accuracy': 0.9274994426541822}
+{'batch': 0, 'epoch': 9, 'training loss': 0.1482389271259308}
+{'batch': 500, 'epoch': 9, 'training loss': 0.21144473552703857}
+{'batch': 1000, 'epoch': 9, 'training loss': 0.05579516291618347}
+{'batch': 1500, 'epoch': 9, 'training loss': 0.14489439129829407}
+{'batch': 2000, 'epoch': 9, 'training loss': 0.13782663643360138}
+{'epoch': 9, 'training loss': 0.12958496809005737, 'validation loss': 0.17728173263529515, 'Words accuracy': 0.8341422872340426, 'Letters accuracy': 0.9291157455260332}
+Training successfully completed.
+GRU Training...
+{'batch': 0, 'epoch': 0, 'training loss': 29.710399627685547}
+{'batch': 500, 'epoch': 0, 'training loss': 2.264016628265381}
+{'batch': 1000, 'epoch': 0, 'training loss': 0.5930497646331787}
+{'batch': 1500, 'epoch': 0, 'training loss': 0.4498162865638733}
+{'batch': 2000, 'epoch': 0, 'training loss': 0.3322739005088806}
+{'epoch': 0, 'training loss': 0.3132047653198242, 'validation loss': 0.27062268422005026, 'Words accuracy': 0.7353390957446808, 'Letters accuracy': 0.9010407166453862}
+{'batch': 0, 'epoch': 1, 'training loss': 0.3450751304626465}
+{'batch': 500, 'epoch': 1, 'training loss': 0.3708471953868866}
+{'batch': 1000, 'epoch': 1, 'training loss': 0.18682783842086792}
+{'batch': 1500, 'epoch': 1, 'training loss': 0.280200719833374}
+{'batch': 2000, 'epoch': 1, 'training loss': 0.23622442781925201}
+{'epoch': 1, 'training loss': 0.21444793045520782, 'validation loss': 0.2308593045523826, 'Words accuracy': 0.7789228723404256, 'Letters accuracy': 0.9138748707971058}
+{'batch': 0, 'epoch': 2, 'training loss': 0.25949573516845703}
+{'batch': 500, 'epoch': 2, 'training loss': 0.31487298011779785}
+{'batch': 1000, 'epoch': 2, 'training loss': 0.1401575803756714}
+{'batch': 1500, 'epoch': 2, 'training loss': 0.24902018904685974}
+{'batch': 2000, 'epoch': 2, 'training loss': 0.18824470043182373}
+{'epoch': 2, 'training loss': 0.20514699816703796, 'validation loss': 0.2102322593965429, 'Words accuracy': 0.8052859042553191, 'Letters accuracy': 0.9209632962445026}
+{'batch': 0, 'epoch': 3, 'training loss': 0.2575342655181885}
+{'batch': 500, 'epoch': 3, 'training loss': 0.3187325894832611}
+{'batch': 1000, 'epoch': 3, 'training loss': 0.13849954307079315}
+{'batch': 1500, 'epoch': 3, 'training loss': 0.2313854694366455}
+{'batch': 2000, 'epoch': 3, 'training loss': 0.18335820734500885}
+{'epoch': 3, 'training loss': 0.21692603826522827, 'validation loss': 0.20710962081843234, 'Words accuracy': 0.807845744680851, 'Letters accuracy': 0.9213078372955554}
+{'batch': 0, 'epoch': 4, 'training loss': 0.22579160332679749}
+{'batch': 500, 'epoch': 4, 'training loss': 0.2867770493030548}
+{'batch': 1000, 'epoch': 4, 'training loss': 0.12263453006744385}
+{'batch': 1500, 'epoch': 4, 'training loss': 0.22254230082035065}
+{'batch': 2000, 'epoch': 4, 'training loss': 0.18461963534355164}
+{'epoch': 4, 'training loss': 0.20471449196338654, 'validation loss': 0.20516391098499298, 'Words accuracy': 0.8120678191489362, 'Letters accuracy': 0.9219158509150605}
+{'batch': 0, 'epoch': 5, 'training loss': 0.20705589652061462}
+{'batch': 500, 'epoch': 5, 'training loss': 0.296618789434433}
+{'batch': 1000, 'epoch': 5, 'training loss': 0.10801674425601959}
+{'batch': 1500, 'epoch': 5, 'training loss': 0.2311648726463318}
+{'batch': 2000, 'epoch': 5, 'training loss': 0.17044848203659058}
+{'epoch': 5, 'training loss': 0.20237651467323303, 'validation loss': 0.20589908789447015, 'Words accuracy': 0.8108045212765957, 'Letters accuracy': 0.9226454672584666}
+{'batch': 0, 'epoch': 6, 'training loss': 0.22436104714870453}
+{'batch': 500, 'epoch': 6, 'training loss': 0.29623928666114807}
+{'batch': 1000, 'epoch': 6, 'training loss': 0.09772809594869614}
+{'batch': 1500, 'epoch': 6, 'training loss': 0.21216854453086853}
+{'batch': 2000, 'epoch': 6, 'training loss': 0.184885174036026}
+{'epoch': 6, 'training loss': 0.18275228142738342, 'validation loss': 0.20246701199323572, 'Words accuracy': 0.8144946808510638, 'Letters accuracy': 0.9236537565108125}
+{'batch': 0, 'epoch': 7, 'training loss': 0.20585256814956665}
+{'batch': 500, 'epoch': 7, 'training loss': 0.25779294967651367}
+{'batch': 1000, 'epoch': 7, 'training loss': 0.10864607244729996}
+{'batch': 1500, 'epoch': 7, 'training loss': 0.20749875903129578}
+{'batch': 2000, 'epoch': 7, 'training loss': 0.162578746676445}
+{'epoch': 7, 'training loss': 0.18981416523456573, 'validation loss': 0.2200259417612502, 'Words accuracy': 0.7910239361702127, 'Letters accuracy': 0.9150959648162785}
+{'batch': 0, 'epoch': 8, 'training loss': 0.2125096321105957}
+{'batch': 500, 'epoch': 8, 'training loss': 0.26799479126930237}
+{'batch': 1000, 'epoch': 8, 'training loss': 0.10126402229070663}
+{'batch': 1500, 'epoch': 8, 'training loss': 0.22112861275672913}
+{'batch': 2000, 'epoch': 8, 'training loss': 0.18545624613761902}
+{'epoch': 8, 'training loss': 0.17373737692832947, 'validation loss': 0.20244893533118227, 'Words accuracy': 0.8122340425531915, 'Letters accuracy': 0.9238868283982895}
+{'batch': 0, 'epoch': 9, 'training loss': 0.19797222316265106}
+{'batch': 500, 'epoch': 9, 'training loss': 0.2481054663658142}
+{'batch': 1000, 'epoch': 9, 'training loss': 0.08781295269727707}
+{'batch': 1500, 'epoch': 9, 'training loss': 0.18569839000701904}
+{'batch': 2000, 'epoch': 9, 'training loss': 0.1753995716571808}
+{'epoch': 9, 'training loss': 0.16779308021068573, 'validation loss': 0.19799099710393459, 'Words accuracy': 0.8170212765957446, 'Letters accuracy': 0.9238006931355263}
+Training successfully completed.
+LSTM Test...
+Top Misclassifications:
+True: 'N', Predicted: 'M', Count: 192
+True: 'H', Predicted: 'M', Count: 185
+True: 'O', Predicted: 'U', Count: 178
+True: 'M', Predicted: 'H', Count: 149
+True: ' ', Predicted: '-', Count: 136
+True: 'A', Predicted: 'R', Count: 134
+True: 'M', Predicted: 'N', Count: 123
+True: 'R', Predicted: 'A', Count: 114
+True: 'R', Predicted: 'E', Count: 112
+True: 'L', Predicted: 'C', Count: 108
+Top mispredictions for ' ':
+  Predicted: '-', Count: 136
+  Predicted: 'A', Count: 81
+  Predicted: 'C', Count: 75
+
+Top mispredictions for 'A':
+  Predicted: 'R', Count: 134
+  Predicted: 'N', Count: 106
+  Predicted: 'M', Count: 78
+
+Top mispredictions for 'B':
+  Predicted: 'R', Count: 93
+  Predicted: 'D', Count: 48
+  Predicted: 'E', Count: 36
+
+Top mispredictions for 'C':
+  Predicted: 'E', Count: 63
+  Predicted: 'L', Count: 57
+  Predicted: 'O', Count: 53
+
+Top mispredictions for 'D':
+  Predicted: 'E', Count: 62
+  Predicted: 'O', Count: 62
+  Predicted: 'P', Count: 39
+
+Top mispredictions for 'E':
+  Predicted: 'R', Count: 107
+  Predicted: 'L', Count: 97
+  Predicted: 'N', Count: 85
+
+Top mispredictions for 'F':
+  Predicted: 'E', Count: 35
+  Predicted: 'A', Count: 17
+  Predicted: 'T', Count: 12
+
+Top mispredictions for 'G':
+  Predicted: 'E', Count: 34
+  Predicted: 'O', Count: 29
+  Predicted: 'C', Count: 28
+
+Top mispredictions for 'H':
+  Predicted: 'M', Count: 185
+  Predicted: 'A', Count: 80
+  Predicted: 'E', Count: 37
+
+Top mispredictions for 'I':
+  Predicted: 'L', Count: 107
+  Predicted: 'E', Count: 107
+  Predicted: 'N', Count: 77
+
+Top mispredictions for 'J':
+  Predicted: 'S', Count: 25
+  Predicted: 'A', Count: 12
+  Predicted: 'T', Count: 12
+
+Top mispredictions for 'K':
+  Predicted: 'H', Count: 16
+  Predicted: 'E', Count: 14
+  Predicted: 'A', Count: 11
+
+Top mispredictions for 'L':
+  Predicted: 'C', Count: 108
+  Predicted: 'I', Count: 101
+  Predicted: 'E', Count: 96
+
+Top mispredictions for 'M':
+  Predicted: 'H', Count: 149
+  Predicted: 'N', Count: 123
+  Predicted: 'A', Count: 80
+
+Top mispredictions for 'N':
+  Predicted: 'M', Count: 192
+  Predicted: 'A', Count: 84
+  Predicted: 'E', Count: 71
+
+Top mispredictions for 'O':
+  Predicted: 'U', Count: 178
+  Predicted: 'D', Count: 97
+  Predicted: 'N', Count: 46
+
+Top mispredictions for 'P':
+  Predicted: 'T', Count: 46
+  Predicted: 'I', Count: 33
+  Predicted: 'L', Count: 28
+
+Top mispredictions for 'Q':
+  Predicted: 'O', Count: 13
+  Predicted: 'U', Count: 11
+  Predicted: 'R', Count: 8
+
+Top mispredictions for 'R':
+  Predicted: 'A', Count: 114
+  Predicted: 'E', Count: 112
+  Predicted: 'O', Count: 53
+
+Top mispredictions for 'S':
+  Predicted: 'J', Count: 49
+  Predicted: 'A', Count: 48
+  Predicted: 'I', Count: 46
+
+Top mispredictions for 'T':
+  Predicted: 'I', Count: 91
+  Predicted: 'E', Count: 79
+  Predicted: 'A', Count: 50
+
+Top mispredictions for 'U':
+  Predicted: 'O', Count: 51
+  Predicted: 'V', Count: 39
+  Predicted: 'R', Count: 39
+
+Top mispredictions for 'V':
+  Predicted: 'U', Count: 85
+  Predicted: 'A', Count: 31
+  Predicted: 'E', Count: 26
+
+Top mispredictions for 'W':
+  Predicted: 'N', Count: 34
+  Predicted: 'U', Count: 13
+  Predicted: 'M', Count: 9
+
+Top mispredictions for 'X':
+  Predicted: 'Y', Count: 9
+  Predicted: 'K', Count: 7
+  Predicted: 'A', Count: 5
+
+Top mispredictions for 'Y':
+  Predicted: 'I', Count: 31
+  Predicted: 'E', Count: 26
+  Predicted: 'A', Count: 23
+
+Top mispredictions for 'Z':
+  Predicted: 'I', Count: 22
+  Predicted: 'L', Count: 10
+  Predicted: 'A', Count: 10
+
+Top mispredictions for '-':
+  Predicted: 'A', Count: 13
+  Predicted: 'R', Count: 13
+  Predicted: 'L', Count: 12
+
+Top mispredictions for ''':
+  Predicted: 'I', Count: 3
+  Predicted: 'H', Count: 3
+  Predicted: 'M', Count: 2
+
+Test successfully applied.
+--> Accuracy of the model on the 30080 test images: 82.792553%
+--> Accuracy of the model on the 196866 test letters: 92.536548%
+--> Average word's proportion well predicted on mispredicted words : 64.548196%
+GRU Test...
+Top Misclassifications:
+True: 'H', Predicted: 'M', Count: 286
+True: 'N', Predicted: 'M', Count: 211
+True: 'O', Predicted: 'U', Count: 176
+True: 'M', Predicted: 'N', Count: 165
+True: ' ', Predicted: '-', Count: 151
+True: 'A', Predicted: 'R', Count: 138
+True: 'L', Predicted: 'I', Count: 136
+True: 'A', Predicted: 'N', Count: 135
+True: 'R', Predicted: 'E', Count: 124
+True: 'L', Predicted: 'C', Count: 118
+Top mispredictions for ' ':
+  Predicted: '-', Count: 151
+  Predicted: 'A', Count: 76
+  Predicted: 'C', Count: 74
+
+Top mispredictions for 'A':
+  Predicted: 'R', Count: 138
+  Predicted: 'N', Count: 135
+  Predicted: 'E', Count: 106
+
+Top mispredictions for 'B':
+  Predicted: 'R', Count: 92
+  Predicted: 'D', Count: 89
+  Predicted: 'E', Count: 46
+
+Top mispredictions for 'C':
+  Predicted: 'E', Count: 65
+  Predicted: 'O', Count: 61
+  Predicted: 'L', Count: 54
+
+Top mispredictions for 'D':
+  Predicted: 'O', Count: 86
+  Predicted: 'E', Count: 73
+  Predicted: 'A', Count: 39
+
+Top mispredictions for 'E':
+  Predicted: 'C', Count: 102
+  Predicted: 'R', Count: 95
+  Predicted: 'I', Count: 90
+
+Top mispredictions for 'F':
+  Predicted: 'E', Count: 49
+  Predicted: 'A', Count: 16
+  Predicted: 'T', Count: 16
+
+Top mispredictions for 'G':
+  Predicted: 'C', Count: 44
+  Predicted: 'E', Count: 41
+  Predicted: 'S', Count: 38
+
+Top mispredictions for 'H':
+  Predicted: 'M', Count: 286
+  Predicted: 'A', Count: 81
+  Predicted: 'N', Count: 40
+
+Top mispredictions for 'I':
+  Predicted: 'E', Count: 107
+  Predicted: 'L', Count: 95
+  Predicted: 'N', Count: 82
+
+Top mispredictions for 'J':
+  Predicted: 'D', Count: 17
+  Predicted: 'T', Count: 15
+  Predicted: 'I', Count: 15
+
+Top mispredictions for 'K':
+  Predicted: 'H', Count: 20
+  Predicted: 'E', Count: 18
+  Predicted: 'M', Count: 12
+
+Top mispredictions for 'L':
+  Predicted: 'I', Count: 136
+  Predicted: 'C', Count: 118
+  Predicted: 'E', Count: 105
+
+Top mispredictions for 'M':
+  Predicted: 'N', Count: 165
+  Predicted: 'H', Count: 98
+  Predicted: 'A', Count: 78
+
+Top mispredictions for 'N':
+  Predicted: 'M', Count: 211
+  Predicted: 'E', Count: 87
+  Predicted: 'A', Count: 51
+
+Top mispredictions for 'O':
+  Predicted: 'U', Count: 176
+  Predicted: 'D', Count: 113
+  Predicted: 'N', Count: 55
+
+Top mispredictions for 'P':
+  Predicted: 'I', Count: 32
+  Predicted: 'D', Count: 31
+  Predicted: 'E', Count: 29
+
+Top mispredictions for 'Q':
+  Predicted: 'O', Count: 16
+  Predicted: 'U', Count: 12
+  Predicted: 'R', Count: 8
+
+Top mispredictions for 'R':
+  Predicted: 'E', Count: 124
+  Predicted: 'A', Count: 106
+  Predicted: 'N', Count: 61
+
+Top mispredictions for 'S':
+  Predicted: 'J', Count: 70
+  Predicted: 'I', Count: 56
+  Predicted: 'A', Count: 51
+
+Top mispredictions for 'T':
+  Predicted: 'I', Count: 108
+  Predicted: 'E', Count: 74
+  Predicted: 'A', Count: 40
+
+Top mispredictions for 'U':
+  Predicted: 'O', Count: 65
+  Predicted: 'E', Count: 44
+  Predicted: 'N', Count: 34
+
+Top mispredictions for 'V':
+  Predicted: 'U', Count: 115
+  Predicted: 'A', Count: 29
+  Predicted: 'E', Count: 26
+
+Top mispredictions for 'W':
+  Predicted: 'N', Count: 42
+  Predicted: 'U', Count: 14
+  Predicted: 'M', Count: 7
+
+Top mispredictions for 'X':
+  Predicted: 'Y', Count: 10
+  Predicted: 'K', Count: 6
+  Predicted: 'E', Count: 6
+
+Top mispredictions for 'Y':
+  Predicted: 'I', Count: 39
+  Predicted: 'V', Count: 37
+  Predicted: 'E', Count: 30
+
+Top mispredictions for 'Z':
+  Predicted: 'I', Count: 26
+  Predicted: 'A', Count: 14
+  Predicted: 'L', Count: 13
+
+Top mispredictions for '-':
+  Predicted: 'A', Count: 13
+  Predicted: 'B', Count: 11
+  Predicted: 'M', Count: 11
+
+Top mispredictions for ''':
+  Predicted: 'I', Count: 4
+  Predicted: 'A', Count: 2
+  Predicted: 'H', Count: 2
+
+Test successfully applied.
+--> Accuracy of the model on the 30080 test images: 81.047207%
+--> Accuracy of the model on the 196866 test letters: 91.993031%
+--> Average word's proportion well predicted on mispredicted words : 64.826509%
+Testing our own images...
+For the image name_trial_andreu.jpg, the prediction is ANDREU.
+--------------------------------------------------------
+For the image name_trial_mathias.jpg, the prediction is PIATHIAS.
+--------------------------------------------------------
+For the image name_trial_pere.jpg, the prediction is PERE.
+--------------------------------------------------------
+For the image name_trial_andreu.jpg, the prediction is ANDREU.
+--------------------------------------------------------
+For the image name_trial_mathias.jpg, the prediction is PIATHIAS.
+--------------------------------------------------------
+For the image name_trial_pere.jpg, the prediction is PEERE.
+--------------------------------------------------------
+Test successfully done.
+Comparison of the models : 
+                                              LSTM          GRU
+Time of training (s)                   2011.803770  1872.015319
+Word accuracy (%)                        82.792553    81.047207
+Letter accuracy (%)                      92.536548    91.993031
+(%) of letters in a mispredicted word    64.548196    64.826509
